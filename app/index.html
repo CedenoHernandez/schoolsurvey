@@ -4,18 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Survey Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-
 </head>
 
 <h1 id="title"> Survey Form </h1>
 
-<p id="description"> Tell us how this school year is going </p>
-<img src="http://namasteyamerica.com/wp-content/uploads/school_na.png">
+<p id="description"> "Success begins with you." </p>
+<img src="school-pic.png" alt="Picture of school house">
 <form id="survey-form">
 
     <div class="labels">
-      <label id="name-label" for="name">*Name</label>
+      <label id="name-label" for="name">*Your Full Name</label>
     </div>
     <div class="rightTab">
       <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
@@ -41,11 +42,11 @@
       <br><br>
         <label for="userRating"> How happy are you with how the school is functioning this year?</label>
           <ul style="list-style:none;">
-            <li class="radio"><label>Very Satisfied<input name="radio-buttons" type="radio" value ="1"></label></li>
-            <li class="radio"><label>Satisfied<input name="radio-buttons" type="radio" value="2"></label></li>
-            <li class="radio"><label>Neutral<input name="radio-buttons" type="radio" value="3"></label></li>
-            <li class="radio"><label>Dissatisfied<input name="radio-buttons" type="radio" value="4"></label></li>
-            <li class="radio"><label>Very Dissatisfied<input name="radio-buttons" type="radio" value="5"></label></li>
+            <li class="radio"><label>Very Satisfied <input name="radio-buttons" type="radio" value ="1"></label></li>
+            <li class="radio"><label>Satisfied <input name="radio-buttons" type="radio" value="2"></label></li>
+            <li class="radio"><label>Neutral <input name="radio-buttons" type="radio" value="3"></label></li>
+            <li class="radio"><label>Dissatisfied <input name="radio-buttons" type="radio" value="4"></label></li>
+            <li class="radio"><label>Very Dissatisfied <input name="radio-buttons" type="radio" value="5"></label></li>
           </ul>
    <br>
    <div>
@@ -64,11 +65,11 @@
          <label>Things that could be improved:<br>(Check all that apply)</label>
          </div>
          <ul id="improve" style="list-style: none;">
-           <li class="checkbox"><label><input type="checkbox" value="1">Administration</label></li>
-           <li class="checkbox"><label><input type="checkbox" value="2">Staffing</label></li>
-           <li class="checkbox"><label><input type="checkbox" value="3">Curriculum</label></li>
-           <li class="checkbox"><label><input type="checkbox" value="4">Technology</label></li>
-           <li class="checkbox"><label><input type="checkbox" value="5">Extracurricular</label><li>
+           <li class="checkbox"><label><input type="checkbox" value="1"> Administration</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="2"> Staffing</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="3"> Curriculum</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="4"> Technology</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="5"> Extracurricular</label><li>
      </ul>
    <div>
      <label for="comments">Any Comments or Suggestions?</label>
@@ -77,6 +78,6 @@
      </div>
 
  <br>
-        <button id="submit" type="submit">Submit</button>
+     <button type="submit" class="btn btn-primary">Submit</button>
  </form>
  </html>

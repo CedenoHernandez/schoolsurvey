@@ -1,61 +1,79 @@
 body {
-  background: #e2e8cc;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  background-color: #51d0de;
+  font-family: 'Josefin Sans', sans-serif;
 }
 h1 {
-  font-size: 50px;
-  background-color: white;
-  height: 50px;
-  padding: 20px;
+    background-color: #bf4aa8;
+    color: #d9d9d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
 }
 #description {
   font-style: italic;
 }
 img {
   display: center;
-  width: 15%;
-  padding: 20px
+  padding: 20px;
+  width: 50%;
 }
 .input-field {
   height: 20px;
   width: 250px;
   padding: 7px;
   margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
 }
 .radio {
   text-align: right;
-  margin-right: 45%;
+  margin-right: 35%;
 }
 #improve {
-  text-align: left;
-  margin-left: 45%;
+    text-align: left;
 }
-#submit {
-  background-color: white;
-  color: black;
-  height: 40px;
-  width: 96px;
-  margin: 10px;
+
+.checkbox {
+    margin-left: 15%;
 }
-  .dropdown {
+
+.dropdown {
   height: 35px;
   width: 140px;
   margin: 10px;
   margin-top: 15px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
 
 }
 .radio, .checkbox {
   position: relative;
-  left: -43px;
-  margin-left: 10px;
+
+
   display: block;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
-button {
-  border-radius: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: #c0f5ab;
+textarea {
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+.btn-primary {
+    margin-bottom: 15px;
+    background-color: #bf4aa8;
+    border-color: #bf4aa8;
+}
+
+ul {
+    background-color: #d9d9d9;
+    width: 75%;
+    margin-left: 50px;
+    border-radius: 7px;
+    border-color: white;
+    border-width: thick;
 }
