@@ -77,3 +77,24 @@ ul {
     border-color: white;
     border-width: thick;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+	left: 0;
+	right: 0;
+    margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+    border-color: #bf4aa8;
+    color: #d9d9d9;
+	width: 70%;
+    height: 50%;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    font-size: 30px;
+    background: #bf4aa8;
+}
