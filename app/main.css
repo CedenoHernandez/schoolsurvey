@@ -1,0 +1,61 @@
+body {
+  background: #e2e8cc;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  font-size: 50px;
+  background-color: white;
+  height: 50px;
+  padding: 20px;
+}
+#description {
+  font-style: italic;
+}
+img {
+  display: center;
+  width: 15%;
+  padding: 20px
+}
+.input-field {
+  height: 20px;
+  width: 250px;
+  padding: 7px;
+  margin: 10px;
+}
+.radio {
+  text-align: right;
+  margin-right: 45%;
+}
+#improve {
+  text-align: left;
+  margin-left: 45%;
+}
+#submit {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+}
+  .dropdown {
+  height: 35px;
+  width: 140px;
+  margin: 10px;
+  margin-top: 15px;
+
+}
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+button {
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #c0f5ab;
+}

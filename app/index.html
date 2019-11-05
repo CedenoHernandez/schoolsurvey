@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<h1 id="title"> Survey Form </h1>
+
+<p id="description"> Tell us how this school year is going </p>
+<img src="http://namasteyamerica.com/wp-content/uploads/school_na.png">
+<form id="survey-form">
+
+    <div class="labels">
+      <label id="name-label" for="name">*Name</label>
+    </div>
+    <div class="rightTab">
+      <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+  </div>
+  <label id="email-label" for="email">*Email</label>
+    <div class="rightTab">
+    <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+    </div>
+      <label id="number-label" for="number">*Student's Grade</label>
+      <div class="rightTab">
+      <input type="number" name="grade" id="number" class="input-field" placeholder="0-5" min="0" max="5"  required>
+   </div>
+      <div class="labels">
+        <label for="fam">Which family role best fits you?</label>
+      </div>
+        <select id="dropdown" name="fam" class="dropdown">
+      <option  value="mother">Mother</option>
+      <option value="father">Father</option>
+      <option value="grand">Grandparent</option>
+      <option value="uncle">Uncle/Aunt</option>
+      <option value="other">Other</option>
+    </select>
+      <br><br>
+        <label for="userRating"> How happy are you with how the school is functioning this year?</label>
+          <ul style="list-style:none;">
+            <li class="radio"><label>Very Satisfied<input name="radio-buttons" type="radio" value ="1"></label></li>
+            <li class="radio"><label>Satisfied<input name="radio-buttons" type="radio" value="2"></label></li>
+            <li class="radio"><label>Neutral<input name="radio-buttons" type="radio" value="3"></label></li>
+            <li class="radio"><label>Dissatisfied<input name="radio-buttons" type="radio" value="4"></label></li>
+            <li class="radio"><label>Very Dissatisfied<input name="radio-buttons" type="radio" value="5"></label></li>
+          </ul>
+   <br>
+   <div>
+     <div class="labels">
+       <label for="like-most">What do you like best about our school?</label>
+     </div>
+       <select id="dropdown" name="mostlike" class="dropdown">
+         <option disabled selected value>Select an option</option>
+         <option>staff</option>
+         <option>curriculum</option>
+         <option>technology</option>
+         <option>extracurricular activities</option>
+     </select>
+     <br><br>
+         <div>
+         <label>Things that could be improved:<br>(Check all that apply)</label>
+         </div>
+         <ul id="improve" style="list-style: none;">
+           <li class="checkbox"><label><input type="checkbox" value="1">Administration</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="2">Staffing</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="3">Curriculum</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="4">Technology</label></li>
+           <li class="checkbox"><label><input type="checkbox" value="5">Extracurricular</label><li>
+     </ul>
+   <div>
+     <label for="comments">Any Comments or Suggestions?</label>
+     <br>
+     <textarea id="comments" style="height:50px; width: 300px; resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+     </div>
+
+ <br>
+        <button id="submit" type="submit">Submit</button>
+ </form>
+ </html>
