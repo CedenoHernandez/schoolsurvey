@@ -98,3 +98,72 @@ ul {
     font-size: 30px;
     background: #bf4aa8;
 }
+
+/* ======================= Media Queries ============================ */
+
+/* optimized for iPad */
+
+@media screen and (min-width: 415px) and (max-width:768px) {
+    .radio {
+      margin-right: 40%;
+    }
+    .checkbox {
+        margin-left: 30%;
+    }
+    ul {
+        width: 50%;
+        margin-left: 200px;
+    }
+    textarea {
+        min-width: 50%;
+    }
+}
+
+/* specifically for iPad Pro */
+
+@media (width: 1024px) {
+    .radio {
+      margin-right: 40%;
+    }
+    .checkbox {
+        margin-left: 30%;
+    }
+    ul {
+        width: 50%;
+        margin-left: 260px;
+    }
+    textarea {
+        min-width: 50%;
+    }
+}
+
+/* display for desktops*/
+@media screen and (min-width: 1025px) and (max-width: 1800px) {
+    img {
+        max-width: 25%;
+    }
+    ul {
+        width: 30%;
+        margin-left: 35%;
+    }
+    .radio {
+      margin-right: 35%;
+    }
+    .checkbox {
+        margin-left: 25%;
+    }
+    #label, #email-label, #number-label, #fam-label, #com-label {
+        padding-top: 30px;
+    }
+    textarea {
+        min-width: 40%;
+    }
+    .modal {
+    	width: 50%;
+        height: 50%;
+        text-align: center;
+        font-size: 50px;
+        vertical-align: middle;
+        padding-top: 50px;
+    }
+}
