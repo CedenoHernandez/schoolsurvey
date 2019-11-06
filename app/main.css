@@ -3,6 +3,7 @@ body {
   background-color: #51d0de;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 h1 {
     background-color: #bf4aa8;
     color: #d9d9d9;
@@ -10,14 +11,17 @@ h1 {
     padding-bottom: 15px;
     text-transform: uppercase;
 }
+
 #description {
   font-style: italic;
 }
+
 img {
   display: center;
   padding: 20px;
   width: 50%;
 }
+
 .input-field {
   height: 20px;
   width: 250px;
@@ -28,10 +32,12 @@ img {
   border-radius: 5px;
   background-color: #d9d9d9;
 }
+
 .radio {
   text-align: right;
   margin-right: 35%;
 }
+
 #improve {
     text-align: left;
 }
@@ -47,12 +53,10 @@ img {
   margin-top: 15px;
   border-radius: 5px;
   background-color: #d9d9d9;
-
 }
+
 .radio, .checkbox {
   position: relative;
-
-
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -147,10 +151,10 @@ ul {
         margin-left: 35%;
     }
     .radio {
-      margin-right: 35%;
+      margin-right: 40%;
     }
     .checkbox {
-        margin-left: 25%;
+        margin-left: 30%;
     }
     #label, #email-label, #number-label, #fam-label, #com-label {
         padding-top: 30px;
